@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1{
+    color:rgba(37, 87, 3, 0.753);
+    font-size: 3.6rem;
+    font-family: 'Times New Roman', Times, serif;
+        font-size:50px;
+
+}
+
+.main-image1{
+    background: url("https://th.bing.com/th/id/R.9b3bc0c9463e0afe3e6002a1fbf5390f?rik=90cT4mhcC4MyIQ&pid=ImgRaw&r=0.jpg"); 
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 20vh;
+    display: flex; 
+    flex-direction: column;
+    align-items:self-end;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.main-image1 {
+    background: none;
+    background-color:rgb(36, 204, 134);
+    align-items: center;
+    color:bisque;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-image1 button{
+    background: none;
+    background-color:beige;
+    align-items: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer; 
+}
